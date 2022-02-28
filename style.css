@@ -82,6 +82,15 @@ body {
   margin-top: -250px !important;
 }
 
+#secondary-footer {
+  padding-top: 10px !important;
+  margin-top: 10px !important;
+}
+
+.arrow-square {
+  margin-bottom: -2px;
+}
+
 /* EXTENDED MAGINS */
 .extend-pb {
   padding-bottom: 225px !important;
