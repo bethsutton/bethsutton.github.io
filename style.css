@@ -1,0 +1,137 @@
+body {
+  background-color: #f2f6f9;
+  margin-top: 50px;
+  font-family: 'Montserrat', sans-serif !important;
+}
+
+#main-header img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+#main-header .port-item {
+  width: 30%;
+}
+
+#main-header .port-item:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+@media (min-width: 1199px) {
+  .port-item {
+    padding: 3em !important;
+  }
+}
+
+/* COLORS */
+.bg-primary-new {
+  background-color: #f2f6f9;
+}
+
+.bg-dark-new {
+  background-color: #082f39;
+}
+
+.bg-medium-new {
+  background-color: #2187ad;
+}
+
+.bg-light-new {
+  background-color: #9bdaf5;
+}
+
+.bg-white-new {
+  background-color: #fefefe;
+}
+
+.box-shadow-new {
+  box-shadow: 0 1px 5px rgba(104, 104, 104, 0.8);
+}
+
+.text-dark-new {
+  color: #082f39;
+}
+
+.text-medium-new {
+  color: #2187ad;
+}
+
+.text-light-new {
+  color: #9bdaf5;
+}
+
+/* CONTACT FORM */
+.btn-primary-new {
+  background-color: transparent;
+  color: #2187ad;
+  border: 1px solid #2187ad;
+  border-radius: 5px;
+  transition: background-color 0.15s;
+}
+
+.btn-primary-new:hover {
+  background-color: #2187ad;
+  color: #fefefe;
+}
+
+/* FOOTER */
+#main-footer {
+  padding-top: 275px !important;
+  margin-top: -250px !important;
+}
+
+/* EXTENDED MAGINS */
+.extend-pb {
+  padding-bottom: 225px !important;
+}
+
+.extend-mt {
+  margin-top: -200px !important;
+}
+
+/* REMOVE DEFAULT PADDING */
+no-padding {
+  padding: 0px !important;
+}
+
+/* PORTFOLIO ITEM OVERLAY */
+.item-container {
+  position: relative !important;
+}
+
+.image-overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  max-width: 500px;
+  opacity: 0;
+  background-color: #082f39;
+}
+
+.image-overlay:hover {
+  transition: 0.5s ease;
+  opacity: 0.8;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+  .image-overlay {
+    margin-right: 0.5rem !important;
+    margin-left: 0.5rem !important;
+  }
+}
