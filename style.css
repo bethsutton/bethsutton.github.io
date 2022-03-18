@@ -62,6 +62,11 @@ body {
   color: #9bdaf5;
 }
 
+/* NAVBAR */
+.nav-link:hover {
+  color: #39a5cc !important;
+}
+
 /* CONTACT FORM */
 .btn-primary-new {
   background-color: transparent;
@@ -106,45 +111,6 @@ no-padding {
 }
 
 /* PORTFOLIO ITEM OVERLAY */
-.item-container {
-  position: relative !important;
-}
-
-.image-overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  max-width: 500px;
-  opacity: 0;
-  background-color: #082f39;
-}
-
-.image-overlay:hover {
-  transition: 0.5s ease;
-  opacity: 0.8;
-}
-
-/* .text {
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-} */
-
-/* @media (min-width: 992px) {
-  .image-overlay {
-    margin-right: 0.5rem !important;
-    margin-left: 0.5rem !important;
-  }
-} */
-
 .overlay {
   position: absolute;
   top: 0;
