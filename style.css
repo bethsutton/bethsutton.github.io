@@ -82,15 +82,15 @@ body {
 }
 
 /* FOOTER */
-#main-footer {
-  padding-top: 275px !important;
-  margin-top: -250px !important;
+/* #main-footer {
+  padding-top: 175px !important;
+  margin-top: -150px !important;
 }
 
 #secondary-footer {
   padding-top: 10px !important;
   margin-top: 10px !important;
-}
+} */
 
 .arrow-square {
   margin-bottom: -2px;
