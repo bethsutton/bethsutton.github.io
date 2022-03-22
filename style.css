@@ -131,8 +131,8 @@ no-padding {
 
 #portfolio-item-1 {
   position: relative;
-  width: 350px;
-  height: 200px;
+  width: 400px;
+  height: 250px;
   background: url('./images/F1-Medium.png');
   background-position: center;
   background-size: cover;
@@ -143,8 +143,8 @@ no-padding {
 
 #portfolio-item-2 {
   position: relative;
-  width: 350px;
-  height: 200px;
+  width: 400px;
+  height: 250px;
   background: url('./images/BB-medium.png');
   background-position: center;
   background-size: cover;
@@ -155,8 +155,8 @@ no-padding {
 
 #portfolio-item-3 {
   position: relative;
-  width: 350px;
-  height: 200px;
+  width: 400px;
+  height: 250px;
   background: url('./images/MM-medium.png');
   background-position: center;
   background-size: cover;
